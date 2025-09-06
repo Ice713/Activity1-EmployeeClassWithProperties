@@ -28,7 +28,6 @@ namespace Activity_1___Employee_Class_with_Properties
             catch (Exception)
             {
                 MessageBox.Show("Please enter valid data.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //throw;
             }
             
         }
