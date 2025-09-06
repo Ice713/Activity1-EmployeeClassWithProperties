@@ -93,6 +93,12 @@
             // 
             // numericUpDownSalary
             // 
+            this.numericUpDownSalary.DecimalPlaces = 2;
+            this.numericUpDownSalary.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numericUpDownSalary.Location = new System.Drawing.Point(363, 98);
             this.numericUpDownSalary.Maximum = new decimal(new int[] {
             1000000,
